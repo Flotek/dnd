@@ -1,4 +1,8 @@
 # dnd
+
+Requirements:
+Node v22.23.1 LTS from https://nodejs.org/en/download
+
 unzip then navigate to that folder in your terminal
 run npm install && npm start
 go to localhost:3000 to  view character builder
