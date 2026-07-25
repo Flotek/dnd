@@ -3,11 +3,16 @@
 Requirements:
 Node v22.23.1 LTS from https://nodejs.org/en/download
 
-unzip then navigate to that folder in your terminal
-run npm install && npm start
-go to localhost:3000 to  view character builder
+download dnd-character-creator.zip and unzip this to your computer. Once it's unzipped, open the folder so you see dnd-creator folder. right click this dnd-creator folder and copy as path. 
 
-By default, it just contains the SRD material. There is an option to upload PDFs.
-Upload the pdfs you want, whether that's source material or homebrew.
+open command prompt as administrator and type 'cd' then paste the path you just copied and hit enter.
 
-If anything looks off after importing pdf, just delete it or track it manually
+in cmd prompt type: npm install && npm start
+open your browser and go to localhost:3000 to view the character builder.
+
+By default, it just contains the SRD material, but you can utilize the import PDF function to import source material.
+
+Keep the terminal open or else you character builder won't run.
+
+Characters are saved in memory so should stay persistent across runs.
+
